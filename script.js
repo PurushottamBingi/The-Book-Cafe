@@ -43,14 +43,4 @@ upwardsButton.addEventListener("click", function () {
   document.documentElement.scrollTop = 0;
 });
 
-// function upward(){
-//   document.documentElement.scrollTop = 0;
-// };
-
-// function formSubmit(){
-//   cancelButton.classList.toggle("hidden");
-//   helpButton.classList.toggle("hidden");
-//   helpForm.classList.remove("help-form-transform");
-//   alert("Your query submitted successfully");
-// };
 
