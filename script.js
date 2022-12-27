@@ -43,21 +43,14 @@ upwardsButton.addEventListener("click", function () {
   document.documentElement.scrollTop = 0;
 });
 
-// //Counter------------------------------------------------
-// const counter = document.querySelector(".countNum");
+// function upward(){
+//   document.documentElement.scrollTop = 0;
+// };
 
-// var count;
-// function clicked() {
-//   var xhr = new XMLHttpRequest();
-//   xhr.open(
-//     "GET",
-//     "https://api.countapi.xyz/update/mdmusaibalibooksvilla.com/mdmusaibalibooksvilla.com?amount=1"
-//   );
-//   xhr.responseType = "json";
-//   xhr.onload = function () {
-//     count = this.response.value;
-//     counter.textContent = count;
-//   };
-//   xhr.send();
-// }
-// clicked();
+// function formSubmit(){
+//   cancelButton.classList.toggle("hidden");
+//   helpButton.classList.toggle("hidden");
+//   helpForm.classList.remove("help-form-transform");
+//   alert("Your query submitted successfully");
+// };
+
